@@ -1,9 +1,8 @@
-package com.littlecorgi.kmmtest.compenont
+package com.littlecorgi.kmmtest.component
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.interop.UIKitView
-import com.littlecorgi.kmmtest.component.WebViewState
 import kotlinx.cinterop.ExperimentalForeignApi
 import kotlinx.cinterop.readValue
 import platform.CoreGraphics.CGRectZero
