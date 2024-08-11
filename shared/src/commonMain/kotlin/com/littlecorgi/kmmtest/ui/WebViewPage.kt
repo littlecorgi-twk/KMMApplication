@@ -11,11 +11,11 @@ import org.jetbrains.compose.ui.tooling.preview.Preview
 
 @Composable
 @Preview
-fun WebViewPage() {
+fun WebViewPage(url: String) {
     MaterialTheme {
         val webViewState = remember {
             WebViewState().apply {
-                url = "https://www.baidu.com"
+                this.url = url
             }
         }
 

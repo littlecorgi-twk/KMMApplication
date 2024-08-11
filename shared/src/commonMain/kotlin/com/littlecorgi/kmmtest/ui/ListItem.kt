@@ -1,7 +1,6 @@
 package com.littlecorgi.kmmtest.ui
 
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.Text
@@ -13,7 +12,7 @@ import com.littlecorgi.kmmtest.module.dao.DataX
 @Composable
 fun ListItem(data: DataX, modifier: Modifier = Modifier) {
     Row(
-        modifier = Modifier.fillMaxWidth()
+        modifier = modifier
             .height(80.dp)
             .padding(5.dp)
     ) {
